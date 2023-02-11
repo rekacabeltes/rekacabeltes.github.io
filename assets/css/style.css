@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: serif;
+}
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+header {
+    background: #2a7ca1;
+    padding: 20px;
+    height: 120px;
+}
+.logo-container {
+    display: inline-block;
+}
+.logo-container img {
+    width: 240px;
+    margin: -60px;
+    margin-left: -187px;
+}
+.nav-container {
+    text-align: right;
+    padding-top: 53px;
+    float: right;
+}
+nav.header-navigation a {
+    font-size: 18px;
+    text-decoration: none;
+    margin: 23px;
+    color: #a3d6ff;
+}
+section.banner-section {
+    background: #fff url('../images/Banner.jpg') no-repeat;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    font-size: xx-large;
+}
+.banner h1 {
+    padding-top: 110px;
+    color: #696969;
+}
+section.about-section {
+    padding: 50px;
+    background: #99aeb5;
+}
+h2 {
+    font-size: 50px;
+    margin-bottom: 37px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+}
+.class-left {
+    display: inline-block;
+}
+.about-left img {
+    width: 370px;
+    border-radius: 100%;
+}
+.about-right {
+    width: 70%;
+    font-size: 30px;
+    float: right;
+    text-align: justify;
+    margin-top: -350px;
+}
+section.projects-section {
+    background: beige;
+    padding: 30px 30px 60px;
+    text-align: center;
+}
+section.projects-section .col {
+    width: 30%;
+    display: inline-block;
+    font-size: 30px;
+    margin: 20px;
+}
+section.projects-section .col span {
+    font-size: 59px;
+    margin: 170px;
+    color: #2a7ca1;
+}
+section.projects-section p {
+    margin: 4px;
+}
+.row-2 {
+    margin-top: 40px;
+}
+section.hire-me-banner {
+    padding: 55px;
+    background: #2a7ca1;
+    text-align: center;
+    font-size: 38px;
+    color: white;
+}
+section.hire-me-banner button {
+    font-size: 26px;
+    padding: 16px 39px;
+    border: none;
+    border-radius: 45px;
+    background: beige;
+    margin-top: 17px;
+}

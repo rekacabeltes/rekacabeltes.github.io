@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <!--EXTERNAL CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="assets/images/logo.png" alt="logo">
+            </div>
+            <div class="nav-container">
+                <nav class="header-navigation">
+                    <a href="index.html">Home</a>
+                    <a href="web-pages/about.html">About</a>
+                    <a href="project.html">Projects</a>
+                    <a href="#">Skills</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<div class="about-section">
+  <p>Hi, I'm Reka Cabeltes.</p>
+  <p>Welcome to my Personal Website!</p>
+</div>
+
+<h2 style="text-align:center">About Me</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="assets/images/Cabeltes, Reka G.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <p class="title">REKA G. CABELTES</p>
+        <p>Hello! My Name is Reka Cabeltes.
+           My friends call me by my nickname "Kang" for short.
+           I am 19 years old. I am born and raised in Cagayan de Oro City,
+           The City of Golden Frienship. In our family, I am the third child.
+           I have three brothers and I am the only girl.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="assets/images/onlinegames.jpeg" alt="Mike" style="width:100%">
+      <div class="container">
+        <p class="title">HABITS</p>
+        <p>My habits are listening to music, play online games and i also loved to draw although im not good at it. </p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="assets/images/kdrama.jpeg" alt="John" style="width:100%">
+      <div class="container">
+        <p class="title">HABITS</p>
+        <p>I also enjoy watching movies and kdramas. 
+           I consider myself to be a person 
+           who views life positively in all respects. 
+           I enjoy a wide variety of activities, sights, and experiences.
+           I am very adventurous and creative.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
